@@ -1,2 +1,2 @@
 # cs-665-assignment-2
-Delivery System using Design Pattern
+Delivery System using the Observer Design Pattern
