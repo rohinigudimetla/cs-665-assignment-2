@@ -16,9 +16,7 @@ public class Driver implements Observer{
     private boolean available;
     private int choice;
     private DeliveryRequest deliveryRequest;
-    public void displayAvailableOrdersForTest() {
-        displayAvailableOrders();
-    }
+
 
     public Driver(int driverId, DeliveryRequest deliveryRequest) {
         this.driverId = driverId;
