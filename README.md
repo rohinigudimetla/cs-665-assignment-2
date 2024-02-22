@@ -1,16 +1,16 @@
 
 | CS-665       | Software Design & Patterns |
 |--------------|----------------------------|
-| Name         | FIRST_NAME LAST_NAME       |
-| Date         | MM/DD/YYYY                 |
-| Course       | Fall / Spring / Summer     |
-| Assignment # |                            |
+| Name         | ROHINI GUDIMETLA           |
+| Date         | 02/21/2024                 |
+| Course       | Spring                     |
+| Assignment # | 2                          |
 
 # Assignment Overview
 Please add a paragraph or two overviewing the objectives of the assignment.
 
 # GitHub Repository Link:
-https://github.com/{YOUR_USERNAME}/cs-665-assignment-{ASSIGNMENT_NUMBER}
+https://github.com/rohinigudimetla/cs-665-assignment-2
 
 # Implementation Description 
 
@@ -106,7 +106,5 @@ mvn checkstyle:checkstyle
 
 The HTML page will be found at the following location:
 `target/site/checkstyle.html`
-
-
 
 
