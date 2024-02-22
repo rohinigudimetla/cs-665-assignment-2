@@ -1,13 +1,13 @@
 /**
- * Name: FIRST_NAME LAST_NAME
+ * Name: ROHINI GUDIMETLA
  * Course: CS-665 Software Designs & Patterns
- * Date: MM/DD/YYYY
+ * Date: 02/20/2024
  * File Name: Main.java
- * Description: Write a description for this class
+ * Description: This is the main class. No significant output returned.
  */
 
 package edu.bu.met.cs665;
-
+import java.util.Scanner;
 import edu.bu.met.cs665.example1.Person;
 
 /**
@@ -22,17 +22,23 @@ public class Main {
    * However, please note that every assignment/final projects requires JUnit tests.
    */
   public static void main(String[] args) {
-    System.out.println("This is a test message from the Main class (Main.java file)");
-  }
+    Shop shop = new Shop("Sample Shop");
 
-  /**
-   * This method performs XYZ and returns String.
-   *
-   * @return String
-   */
-  private String doIt() {
-    Person student = new Person("John", "Doe");
-    return student.getLastName() + ',' + student.getFirstName();
+    Product product1 = new Product("Product 1");
+    Product product2 = new Product("Product 2");
+
+    shop.addProduct(product1);
+    shop.addProduct(product2);
+
+    Order order = new Order(shop, product1);
+
+    DeliveryRequest deliveryRequest = new DeliveryRequest();
+
+    Scanner scanner = new Scanner(System.in);
+
+    System.out.println("=========================================");
+
+    scanner.close();
   }
 
 }
